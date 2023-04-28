@@ -6994,10 +6994,14 @@ var Vim = function () {
   }
 
   /** Wrapper for special keys pressed in insert mode */
-  function InsertModeKey(keyName) {
-    this.keyName = keyName;
+  class InsertModeKey {
+    /**
+     * @param {string} keyName 
+     */
+    constructor(keyName) {
+      this.keyName = keyName;
+    }
   }
-
   /**
    * Handles raw key down events from the text area.
    * - Should only be active in insert mode.
