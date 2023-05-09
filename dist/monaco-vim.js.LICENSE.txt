@@ -1,0 +1,6 @@
+/*!
+ * monaco-vim
+ * Version - 0.3.5
+ * Author - Brijesh Bittu <brijesh@bitwiser.in> (http://bitwiser.in/)
+ * License - MIT
+ */
